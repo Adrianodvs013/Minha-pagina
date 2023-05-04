@@ -24,9 +24,9 @@
     align-items: center;
     gap: 15px;
     padding: 20px 9%;
-    background-image: linear-gradient(to left, #ffe0aa, #d63d00, #f34703);
+    background-image: linear-gradient(to left, #400147, #8911fa, #60116a);
     background-size: 150% 50%;
-    animation: imagem 3s infinite alternate;
+    animation: imagem 5s infinite alternate;
 }
 
 .pagina1 h2 {
@@ -53,7 +53,7 @@
 
 .pagina2 h2 {
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(255, 61, 2);
+    color: rgb(77, 6, 168);
     font-size: 80px;
 }
 
@@ -71,9 +71,9 @@
     align-items: center;
     gap: 15px;
     padding: 20px 9%;
-    background-image: linear-gradient(to left, #ffe0aa, #d63d00, #f34703);
+    background-image: linear-gradient(to left, #400147, #8911fa, #60116a);
     background-size: 150% 50%;
-    animation: imagem 3s infinite alternate;
+    animation: imagem 5s infinite alternate;
 }
 
 
