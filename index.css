@@ -1,0 +1,95 @@
+@keyframes imagem {
+    0% {
+        background-position: 0%;
+    }
+
+    100% {
+        background-position: 100%;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    position: relative;
+}
+
+.pagina1 {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 20px 9%;
+    background-image: linear-gradient(to left, #ffe0aa, #d63d00, #f34703);
+    background-size: 150% 50%;
+    animation: imagem 3s infinite alternate;
+}
+
+.pagina1 h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 90px;
+}
+
+.pagina1 p {
+    text-align: justify;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+
+.pagina2 {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 20px 9%;
+    background-size: 150% 50%;
+}
+
+.pagina2 h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 61, 2);
+    font-size: 80px;
+}
+
+.pagina2 p {
+    text-align: justify;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+
+
+
+.pagina3 {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 20px 9%;
+    background-image: linear-gradient(to left, #ffe0aa, #d63d00, #f34703);
+    background-size: 150% 50%;
+    animation: imagem 3s infinite alternate;
+}
+
+
+.pagina3 h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+}
+
+.pagina3 p {
+    text-align: justify;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+.footer {
+    padding: 0 5%;
+    margin: auto;
+}
